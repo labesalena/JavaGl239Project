@@ -69,6 +69,7 @@ public class Form extends JFrame {
         initWidgets();
     }
 
+
     private void initWidgets() {
         // задаём текст полю описания задачи
         problemText.setText(convertToMultiline(problemStr));
